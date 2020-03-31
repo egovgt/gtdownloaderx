@@ -21,8 +21,7 @@ try {
                                 public void onSuccess(GTDownloadRequest request) {
 
                                 }
-                            })
-                            .startRequest(new GTDownloadRequest(Uri.parse(uri)) // start your download request
+                            }).startRequest(new GTDownloadRequest(Uri.parse(uri)) // start your download request
                                             .setNotificationVisibility(DownloadManager.Request.VISIBILITY_HIDDEN) // default = show
                                             .setDestinationUri(destination)); // destination uri = xxx
                         } catch (GTDownloadException e) {
