@@ -46,3 +46,9 @@ try {
                         }
 ```
 
+## Cancel download :
+
+~~~
+mDownloadManager.cancelDownload(new GTDownloadRequest(uri));
+~~~
+
